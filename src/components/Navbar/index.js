@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
+
 function Navbar() {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
