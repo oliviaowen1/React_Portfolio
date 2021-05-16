@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import ffs from "../../assets/fast-food-icon.png";
+import astro from "../../assets/rocket4.png";
+import weather from "../../assets/weather3.png";
+import planner from "../../assets/imageedit_15_9082963304.png";
+
 
 function Cards() {
     return (
@@ -8,7 +13,7 @@ function Cards() {
             <div className="row">
             <hr className="my-4" />
                 <div className="card text-white bg-dark col-md-3 cardPad" >
-                    <img className="card-img-top rocketImg" src="./assets/rocket4.png"
+                    <img className="card-img-top rocketImg" src={astro}
                         alt="Stock Image" />
                     <div className="card-body text-center">
                         <h5 className="card-title">Astro Search</h5>
@@ -22,7 +27,7 @@ function Cards() {
                     </div>
                 </div>
                 <div className="card text-white bg-dark col-md-3 cardPad" >
-                    <img className="card-img-top weatherImg" src="./assets/weather3.png" alt="Stock Image" />
+                    <img className="card-img-top weatherImg" src={weather} alt="Stock Image" />
                     <div className="card-body text-center">
                         <h5 className="card-title">Weather Dashboard</h5>
                         <p className="card-text"> The Weather Dashboard allows you to search for a city and see the
@@ -36,7 +41,7 @@ function Cards() {
                     </div>
                 </div>
                 <div className="card text-white bg-dark col-md-3 cardPad">
-                    <img className="card-img-top" src="./assets/imageedit_15_9082963304.png" alt="Stock Image" />
+                    <img className="card-img-top" src={planner} alt="Stock Image" />
                     <div className="card-body text-center">
                         <h5 className="card-title">Work Day Planner</h5>
                         <p className="card-text">This application allows you to book things into your schedule for the
@@ -52,7 +57,7 @@ function Cards() {
             </div>
             <div className="row">
                 <div className="card text-white bg-dark col-md-3 cardPad">
-                    <img className="card-img-top" src="./assets/fast-food-icon.png" alt="Stock Image" />
+                    <img className="card-img-top" src={ffs} alt="Stock Image" />
                     <div className="card-body text-center">
                         <h5 className="card-title">Few Fries Short</h5>
                         <p className="card-text">This application allows you to add restaurants as well as add reviews to restaurants and view other users reviews. You can also comment on other users' reviews and add images to the restaurants.
