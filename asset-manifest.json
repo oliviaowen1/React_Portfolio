@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.c470c137.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.8083c331.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.8083c331.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.46b68097.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.46b68097.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/React_Portfolio/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.4929f811.chunk.js": "/React_Portfolio/static/js/2.4929f811.chunk.js",
+    "static/js/2.4929f811.chunk.js.map": "/React_Portfolio/static/js/2.4929f811.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/React_Portfolio/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.c470c137.chunk.css.map": "/React_Portfolio/static/css/main.c470c137.chunk.css.map",
+    "static/js/2.4929f811.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.4929f811.chunk.js.LICENSE.txt",
+    "static/media/20201213_122059.58ca7157.jpg": "/React_Portfolio/static/media/20201213_122059.58ca7157.jpg",
+    "static/media/Screenshot 2021-01-24 at 22.34.49.bd89383e.png": "/React_Portfolio/static/media/Screenshot 2021-01-24 at 22.34.49.bd89383e.png",
+    "static/media/Screenshot 2021-02-14 at 15.09.55.d73cf7a5.png": "/React_Portfolio/static/media/Screenshot 2021-02-14 at 15.09.55.d73cf7a5.png",
+    "static/media/Screenshot 2021-02-14 at 15.12.01.1f3195c0.png": "/React_Portfolio/static/media/Screenshot 2021-02-14 at 15.12.01.1f3195c0.png",
+    "static/media/Screenshot 2021-02-14 at 15.13.17.229ca2af.png": "/React_Portfolio/static/media/Screenshot 2021-02-14 at 15.13.17.229ca2af.png",
+    "static/media/blog.5cd6d593.png": "/React_Portfolio/static/media/blog.5cd6d593.png",
+    "static/media/email.4169e85d.png": "/React_Portfolio/static/media/email.4169e85d.png",
+    "static/media/fast-food-icon.8aa28e7d.png": "/React_Portfolio/static/media/fast-food-icon.8aa28e7d.png",
+    "static/media/few-fries-short.31f1e6ee.png": "/React_Portfolio/static/media/few-fries-short.31f1e6ee.png",
+    "static/media/imageedit_15_9082963304.967f30e4.png": "/React_Portfolio/static/media/imageedit_15_9082963304.967f30e4.png",
+    "static/media/imageedit_18_2425892445.b1aee986.png": "/React_Portfolio/static/media/imageedit_18_2425892445.b1aee986.png",
+    "static/media/person.ce705fe6.png": "/React_Portfolio/static/media/person.ce705fe6.png",
+    "static/media/phone.26521128.png": "/React_Portfolio/static/media/phone.26521128.png",
+    "static/media/rocket4.4789b1a4.png": "/React_Portfolio/static/media/rocket4.4789b1a4.png",
+    "static/media/weather3.f9f74ca4.png": "/React_Portfolio/static/media/weather3.f9f74ca4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46b68097.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.4929f811.chunk.js",
+    "static/css/main.c470c137.chunk.css",
+    "static/js/main.8083c331.chunk.js"
+  ]
+}
