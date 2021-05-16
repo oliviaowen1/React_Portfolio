@@ -1,5 +1,16 @@
 import React from "react";
+import './style.css'
 // import Header from "../components/Header";
+import ffs from "../assets/fast-food-icon.png";
+import astro from "../assets/rocket4.png";
+import weather from "../assets/weather3.png";
+import planner from "../assets/imageedit_15_9082963304.png";
+
+import wdp from "../assets/Screenshot 2021-02-14 at 15.13.17.png";
+import wd from "../assets/Screenshot 2021-01-24 at 22.34.49.png";
+import astroSearch1 from "../assets/Screenshot 2021-02-14 at 15.09.55.png";
+import astroSearch2 from "../assets/Screenshot 2021-02-14 at 15.12.01.png";
+import fries from "../assets/few-fries-short.png";
 
 function Portfolio() {
 
@@ -22,23 +33,23 @@ function Portfolio() {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="./assets/Screenshot 2021-02-14 at 15.13.17.png" className="d-block w-100"
+                                <img src={wdp} className="d-block w-100"
                                     alt="Work Day Planner" />
                             </div>
                             <div className="carousel-item">
-                                <img src="./assets/Screenshot 2021-01-24 at 22.34.49.png" className="d-block w-100"
+                                <img src={wd} className="d-block w-100"
                                     alt="Weather Dashboard" />
                             </div>
                             <div className="carousel-item">
-                                <img src="./assets/Screenshot 2021-02-14 at 15.09.55.png" className="d-block w-100"
+                                <img src={astroSearch1} className="d-block w-100"
                                     alt="Astro Search" />
                             </div>
                             <div className="carousel-item">
-                                <img src="./assets/Screenshot 2021-02-14 at 15.12.01.png" className="d-block w-100"
+                                <img src={astroSearch2} className="d-block w-100"
                                     alt="Astro Search" />
                             </div>
                             <div className="carousel-item">
-                                <img src="./assets/few-fries-short.png" className="d-block w-100"
+                                <img src={fries} className="d-block w-100"
                                     alt="Few Fries Short" />
                             </div>
                         </div>
@@ -75,68 +86,98 @@ function Portfolio() {
                 <div className="card w-150 card text-white bg-dark">
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">Astro Search</h5>
-                        <img className="card-img-top rocketImg cardImgHoz" src="./assets/rocket4.png" alt="Stock Image" />
-                            <p className="card-text text-center">Astro Search allows you to search for images of space and information
-                            on astronomical events based on the date and location entered. This project was a
+                        <img className="card-img-top rocketImg cardImgHoz img" src={astro} alt="Stock Image" style={{ width: '150px' }} />
+                        <p className="card-text text-center">Astro Search allows you to search for images of space and information
+                        on astronomical events based on the date and location entered. This project was a
                         collaboration between myself and 3 other developers.</p>
-                            <a target="_blank" href="https://oliviaowen1.github.io/UoB_BC_AstronomicalEventSearch/"
-                                className="btn btn-primary">Application</a>
-                            <a target="_blank" href="https://github.com/oliviaowen1/UoB_BC_AstronomicalEventSearch"
-                                className="btn btn-primary">Github</a>
-                </div>
+                        <a target="_blank" href="https://oliviaowen1.github.io/UoB_BC_AstronomicalEventSearch/"
+                            className="btn btn-primary">Application</a>
+                        <a target="_blank" href="https://github.com/oliviaowen1/UoB_BC_AstronomicalEventSearch"
+                            className="btn btn-primary">Github</a>
                     </div>
                 </div>
-                <div className="col-md-8 offset-md-2 bodyPad">
-                    <div className="card w-150 card text-white bg-dark">
-                        <div className="card-body text-center">
-                            <h5 className="card-title text-center">Weather Dashboard</h5>
-                            <img className="card-img-top weatherImg cardImgHoz" src="./assets/weather3.png" alt="Stock Image" />
-                                <p className="card-text text-center">The Weather Dashboard allows you to search for a city and see the
-                                current weather as well as the next 5 days forecast. Youre searched cities will be saved
+            </div>
+            <div className="col-md-8 offset-md-2 bodyPad">
+                <div className="card w-150 card text-white bg-dark">
+                    <div className="card-body text-center">
+                        <h5 className="card-title text-center">Weather Dashboard</h5>
+                        <img className="card-img-top weatherImg cardImgHoz" src={weather} alt="Stock Image" style={{ width: '150px' }} />
+                        <p className="card-text text-center">The Weather Dashboard allows you to search for a city and see the
+                        current weather as well as the next 5 days forecast. Youre searched cities will be saved
                         and the last one you searched will be presented when the webpage loads.</p>
-                                <a target="_blank" href="https://oliviaowen1.github.io/Weather_Cities_Dashboard/"
-                                    className="btn btn-primary">Application</a>
-                                <a target="_blank" href="https://github.com/oliviaowen1/Weather_Cities_Dashboard"
-                                    className="btn btn-primary">Github</a>
-                </div>
-                        </div>
+                        <a target="_blank" href="https://oliviaowen1.github.io/Weather_Cities_Dashboard/"
+                            className="btn btn-primary">Application</a>
+                        <a target="_blank" href="https://github.com/oliviaowen1/Weather_Cities_Dashboard"
+                            className="btn btn-primary">Github</a>
                     </div>
-                    <div className="col-md-8 offset-md-2 bodyPad">
-                        <div className="card w-150 card text-white bg-dark">
-                            <div className="card-body text-center">
-                                <h5 className="card-title text-center">Work Day Planner</h5>
-                                <img className="card-img-top cardImgHoz" src="./assets/imageedit_15_9082963304.png" alt="Stock Image" />
-                                    <p className="card-text text-center">This application allows you to book things into your schedule for the
-                                    working day. Anything in the past will be grey, present will be red and future is green.
+                </div>
+            </div>
+            <div className="col-md-8 offset-md-2 bodyPad">
+                <div className="card w-150 card text-white bg-dark">
+                    <div className="card-body text-center">
+                        <h5 className="card-title text-center">Work Day Planner</h5>
+                        <img className="card-img-top cardImgHoz" src={planner} alt="Stock Image" style={{ width: '150px' }} />
+                        <p className="card-text text-center">This application allows you to book things into your schedule for the
+                        working day. Anything in the past will be grey, present will be red and future is green.
                         Anything written will save to local storage.</p>
-                                    <a target="_blank" href="https://oliviaowen1.github.io/Work_Day_Planner/"
-                                        className="btn btn-primary cardBtn">Application</a>
-                                    <a target="_blank" href="https://github.com/oliviaowen1/Work_Day_Planner"
-                                        className="btn btn-primary cardBtn">Github</a>
+                        <a target="_blank" href="https://oliviaowen1.github.io/Work_Day_Planner/"
+                            className="btn btn-primary cardBtn">Application</a>
+                        <a target="_blank" href="https://github.com/oliviaowen1/Work_Day_Planner"
+                            className="btn btn-primary cardBtn">Github</a>
+                    </div>
                 </div>
-                            </div>
-                        </div>
-                        <div className="col-md-8 offset-md-2 bodyPad">
-                            <div className="card w-150 card text-white bg-dark">
-                                <div className="card-body text-center">
-                                    <h5 className="card-title text-center">Few Fries Short</h5>
-                                    <img className="card-img-top cardImgHoz" src="./assets/fast-food-icon.png" alt="Stock Image" />
-                                        <p className="card-text text-center">This application allows you to add restaurants as well as add reviews to restaurants and
-                                        view other users reviews.
+            </div>
+            <div className="col-md-8 offset-md-2 bodyPad">
+                <div className="card w-150 card text-white bg-dark">
+                    <div className="card-body text-center">
+                        <h5 className="card-title text-center">Few Fries Short</h5>
+                        <img className="card-img-top cardImgHoz" src={ffs} alt="Stock Image" style={{ width: '150px' }} />
+                        <p className="card-text text-center">This application allows you to add restaurants as well as add reviews to restaurants and
+                        view other users reviews.
                         You can also comment on other users' reviews and add images to the restaurants.</p>
-                                        <a target="_blank" href="https://few-fries-short.herokuapp.com/"
-                                            className="btn btn-primary">Application</a>
-                                        <a target="_blank" href="https://github.com/oliviaowen1/Project-2"
-                                            className="btn btn-primary">Github</a>
+                        <a target="_blank" href="https://few-fries-short.herokuapp.com/"
+                            className="btn btn-primary">Application</a>
+                        <a target="_blank" href="https://github.com/oliviaowen1/Project-2"
+                            className="btn btn-primary">Github</a>
+                    </div>
                 </div>
-                                </div>
-                            </div>
+            </div>
+            <div className="col-md-8 offset-md-2 bodyPad">
+                <div className="card w-150 card text-white bg-dark">
+                    <div className="card-body text-center">
+                        <h5 className="card-title text-center">Few Fries Short</h5>
+                        <img className="card-img-top cardImgHoz" src={ffs} alt="Stock Image" style={{ width: '150px' }} />
+                        <p className="card-text text-center">This application allows you to add restaurants as well as add reviews to restaurants and
+                        view other users reviews.
+                        You can also comment on other users' reviews and add images to the restaurants.</p>
+                        <a target="_blank" href="https://few-fries-short.herokuapp.com/"
+                            className="btn btn-primary">Application</a>
+                        <a target="_blank" href="https://github.com/oliviaowen1/Project-2"
+                            className="btn btn-primary">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-8 offset-md-2 bodyPad">
+                <div className="card w-150 card text-white bg-dark">
+                    <div className="card-body text-center">
+                        <h5 className="card-title text-center">Few Fries Short</h5>
+                        <img className="card-img-top cardImgHoz" src={ffs} alt="Stock Image" style={{ width: '150px' }} />
+                        <p className="card-text text-center">This application allows you to add restaurants as well as add reviews to restaurants and
+                        view other users reviews.
+                        You can also comment on other users' reviews and add images to the restaurants.</p>
+                        <a target="_blank" href="https://few-fries-short.herokuapp.com/"
+                            className="btn btn-primary">Application</a>
+                        <a target="_blank" href="https://github.com/oliviaowen1/Project-2"
+                            className="btn btn-primary">Github</a>
+                    </div>
+                </div>
+            </div>
 
-                            <div>
-                                <hr className="my-4" />
-                            </div>
+            <div>
+                <hr className="my-4" />
+            </div>
 
-    </section>
+        </section>
 
 
     );

@@ -1,5 +1,8 @@
 import React from "react";
 // import Header from "../components/Header";
+import phone from "../assets/phone.png";
+import email from "../assets/email.png";
+import contact from "../assets/imageedit_18_2425892445.png";
 
 function Contact() {
 
@@ -58,7 +61,7 @@ function Contact() {
                 <hr className="my-4" />
                 <div className="row">
                     <div className="card text-white bg-dark col-md-3 cardPad" >
-                        <img className="card-img-top" src="./assets/email.png" alt="Stock Image" />
+                        <img className="card-img-top" src={email} alt="Stock Image" style={{width: '175px'}}/>
                         <div className="card-body text-center">
                             <h5 className="card-title">Contact Me!</h5>
                             <p className="card-text">
@@ -68,7 +71,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="card text-white bg-dark col-md-3 cardPad" >
-                        <img className="card-img-top" src="./assets/phone.png" alt="Stock Image" />
+                        <img className="card-img-top" src={phone} alt="Stock Image" style={{width: '150px'}}/>
                         <div className="card-body text-center">
                             <h5 className="card-title">Contact Me!</h5>
                             <p className="card-text">
@@ -78,7 +81,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="card text-white bg-dark col-md-3 cardPad" >
-                        <img className="card-img-top" src="./assets/imageedit_18_2425892445.png" alt="Stock Image" />
+                        <img className="card-img-top" src={contact} alt="Stock Image" style={{width: '175px'}}/>
                         <div className="card-body text-center">
                             <h5 className="card-title">Contact Me!</h5>
                             <p className="card-text">

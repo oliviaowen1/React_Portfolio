@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import Jumbo from "../components/Jumbo"
-import Cards from "../components/Cards"
+import Jumbo from "../components/Jumbo";
+import Cards from "../components/Cards";
+import portfolioImg from "../assets/20201213_122059.jpg";
+
 
 function About() {
     return (
@@ -13,7 +15,7 @@ function About() {
                     <h2> About me </h2>
                 </div>
                 <div className="col-md-2 offset-md-2 bodyPad">
-                    <img src="./assets/20201213_122059.jpg" alt="Image of me" class="img-thumbnail" /> 
+                    <img src={portfolioImg} alt="Image of me" class="img-thumbnail" /> 
                 </div>
                 <div className="col-md-6 bodyPad">
                     <p className="lead">

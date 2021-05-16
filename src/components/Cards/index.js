@@ -14,7 +14,7 @@ function Cards() {
             <hr className="my-4" />
                 <div className="card text-white bg-dark col-md-3 cardPad" >
                     <img className="card-img-top rocketImg" src={astro}
-                        alt="Stock Image" />
+                        alt="Stock Image" style={{width: '150px'}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">Astro Search</h5>
                         <p className="card-text"> Astro Search allows you to search for images of space and information
@@ -27,7 +27,7 @@ function Cards() {
                     </div>
                 </div>
                 <div className="card text-white bg-dark col-md-3 cardPad" >
-                    <img className="card-img-top weatherImg" src={weather} alt="Stock Image" />
+                    <img className="card-img-top weatherImg" src={weather} alt="Stock Image" style={{width: '150px'}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">Weather Dashboard</h5>
                         <p className="card-text"> The Weather Dashboard allows you to search for a city and see the
@@ -40,24 +40,10 @@ function Cards() {
                             className="btn btn-primary">Github</a>
                     </div>
                 </div>
+
+
                 <div className="card text-white bg-dark col-md-3 cardPad">
-                    <img className="card-img-top" src={planner} alt="Stock Image" />
-                    <div className="card-body text-center">
-                        <h5 className="card-title">Work Day Planner</h5>
-                        <p className="card-text">This application allows you to book things into your schedule for the
-                        working day. Anything in the past will be grey, present will be red and future is green.
-                        Anything written will save to local storage.
-                            </p>
-                        <a target="_blank" href="https://oliviaowen1.github.io/Work_Day_Planner/"
-                            className="btn btn-primary">Application</a>
-                        <a target="_blank" href="https://github.com/oliviaowen1/Work_Day_Planner"
-                            className="btn btn-primary">Github</a>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="card text-white bg-dark col-md-3 cardPad">
-                    <img className="card-img-top" src={ffs} alt="Stock Image" />
+                    <img className="card-img-top" src={ffs} alt="Stock Image" style={{width: '150px'}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">Few Fries Short</h5>
                         <p className="card-text">This application allows you to add restaurants as well as add reviews to restaurants and view other users reviews. You can also comment on other users' reviews and add images to the restaurants.
