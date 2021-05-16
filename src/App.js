@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Jumbo from "./components/Jumbo";
 import About from "./components/About";
+import Cards from "./components/Cards"
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </div>
       <Jumbo />
       <About />
+      <Cards />
       <Footer />
     </Router>
   );
