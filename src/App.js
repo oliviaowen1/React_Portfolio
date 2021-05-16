@@ -1,6 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import Jumbo from "./components/Jumbo";
 import About from "./components/About";
 import Cards from "./components/Cards"
@@ -9,12 +12,12 @@ import Footer from "./components/Footer";
 function App() {
   return(
     <Router>
-      <div>
+    <Switch>
         <Navbar />
-        {/* <Route  exact path="/" component={Home} />
+        <Route  exact path="/" component={Home} />
         <Route  exact path="/contact" component={Contact} />
-        <Route  exact path="/portfolio" component={Portfolio} /> */}
-      </div>
+        <Route  exact path="/portfolio" component={Portfolio} />
+      </Switch>
       <Jumbo />
       <About />
       <Cards />
