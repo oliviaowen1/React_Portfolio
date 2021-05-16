@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Jumbo from "./components/Jumbo";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return(
@@ -13,6 +15,8 @@ function App() {
         <Route  exact path="/portfolio" component={Portfolio} /> */}
       </div>
       <Jumbo />
+      <About />
+      <Footer />
     </Router>
   );
 }
