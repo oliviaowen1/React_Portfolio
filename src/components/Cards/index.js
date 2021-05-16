@@ -12,7 +12,7 @@ function Cards() {
             {/* <!-- This is the line across the page --> */}
             <div className="row">
             <hr className="my-4" />
-                <div className="card text-white bg-dark col-md-3 cardPad" >
+                <div className="card text-white bg-dark col-md-3 cardPad" style={{margin: '25px' ,padding: '25px' }}>
                     <img className="card-img-top rocketImg" src={astro}
                         alt="Stock Image" style={{width: '150px'}}/>
                     <div className="card-body text-center">
@@ -26,7 +26,7 @@ function Cards() {
                             className="btn btn-primary">Github</a>
                     </div>
                 </div>
-                <div className="card text-white bg-dark col-md-3 cardPad" >
+                <div className="card text-white bg-dark col-md-3 cardPad" style={{margin: '25px' ,padding: '25px' }}>
                     <img className="card-img-top weatherImg" src={weather} alt="Stock Image" style={{width: '150px'}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">Weather Dashboard</h5>
@@ -42,7 +42,7 @@ function Cards() {
                 </div>
 
 
-                <div className="card text-white bg-dark col-md-3 cardPad">
+                <div className="card text-white bg-dark col-md-3 cardPad" style={{margin: '25px' ,padding: '25px' }}>
                     <img className="card-img-top" src={ffs} alt="Stock Image" style={{width: '150px'}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">Few Fries Short</h5>

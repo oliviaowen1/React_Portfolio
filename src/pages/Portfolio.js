@@ -85,7 +85,7 @@ function Portfolio() {
 
             {/* <!-- Here are the cards on the page --> */}
             <div className="col-md-8 offset-md-2 bodyPad">
-                <div className="card w-150 card text-white bg-dark">
+                <div className="card w-150 card text-white bg-dark" style={{margin: '25px' ,padding: '25px' }}>
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">Astro Search</h5>
                         <img className="card-img-top rocketImg cardImgHoz img" src={astro} alt="Stock Image" style={{ width: '150px' }} />
@@ -100,7 +100,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="col-md-8 offset-md-2 bodyPad">
-                <div className="card w-150 card text-white bg-dark">
+                <div className="card w-150 card text-white bg-dark" style={{margin: '25px' ,padding: '25px' }}>
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">Weather Dashboard</h5>
                         <img className="card-img-top weatherImg cardImgHoz" src={weather} alt="Stock Image" style={{ width: '150px' }} />
@@ -115,7 +115,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="col-md-8 offset-md-2 bodyPad">
-                <div className="card w-150 card text-white bg-dark">
+                <div className="card w-150 card text-white bg-dark" style={{margin: '25px' ,padding: '25px' }}>
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">Work Day Planner</h5>
                         <img className="card-img-top cardImgHoz" src={planner} alt="Stock Image" style={{ width: '150px' }} />
@@ -130,7 +130,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="col-md-8 offset-md-2 bodyPad">
-                <div className="card w-150 card text-white bg-dark">
+                <div className="card w-150 card text-white bg-dark" style={{margin: '25px' ,padding: '25px' }}>
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">Few Fries Short</h5>
                         <img className="card-img-top cardImgHoz" src={ffs} alt="Stock Image" style={{ width: '150px' }} />
@@ -145,7 +145,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="col-md-8 offset-md-2 bodyPad">
-                <div className="card w-150 card text-white bg-dark">
+                <div className="card w-150 card text-white bg-dark" style={{margin: '25px' ,padding: '25px' }}>
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">Tech Blog</h5>
                         <img className="card-img-top cardImgHoz" src={blog} alt="Stock Image" style={{ width: '150px' }} />
@@ -159,7 +159,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="col-md-8 offset-md-2 bodyPad">
-                <div className="card w-150 card text-white bg-dark">
+                <div className="card w-150 card text-white bg-dark" style={{margin: '25px' ,padding: '25px' }}>
                     <div className="card-body text-center">
                         <h5 className="card-title text-center">Employee Directory</h5>
                         <img className="card-img-top cardImgHoz" src={person} alt="Stock Image" style={{ width: '150px' }} />

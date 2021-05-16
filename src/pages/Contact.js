@@ -60,7 +60,7 @@ function Contact() {
                 {/* <!-- This is the line across the page --> */}
                 <hr className="my-4" />
                 <div className="row">
-                    <div className="card text-white bg-dark col-md-3 cardPad" >
+                    <div className="card text-white bg-dark col-md-3 cardPad" style={{margin: '25px' ,padding: '25px' }}>
                         <img className="card-img-top" src={email} alt="Stock Image" style={{width: '175px'}}/>
                         <div className="card-body text-center">
                             <h5 className="card-title">Contact Me!</h5>
@@ -70,7 +70,7 @@ function Contact() {
                             <a target="_blank" className="btn btn-primary" href="mailto:olivia.owen@hotmail.com">Email Me!</a>
                         </div>
                     </div>
-                    <div className="card text-white bg-dark col-md-3 cardPad" >
+                    <div className="card text-white bg-dark col-md-3 cardPad" style={{margin: '25px' , padding: '25px'}}>
                         <img className="card-img-top" src={phone} alt="Stock Image" style={{width: '150px'}}/>
                         <div className="card-body text-center">
                             <h5 className="card-title">Contact Me!</h5>
@@ -80,7 +80,7 @@ function Contact() {
                             <a target="_blank" className="btn btn-primary" href="tel:01234567890">Call Me!</a>
                         </div>
                     </div>
-                    <div className="card text-white bg-dark col-md-3 cardPad" >
+                    <div className="card text-white bg-dark col-md-3 cardPad" style={{margin: '25px' , padding: '25px' }}>
                         <img className="card-img-top" src={contact} alt="Stock Image" style={{width: '175px'}}/>
                         <div className="card-body text-center">
                             <h5 className="card-title">Contact Me!</h5>
