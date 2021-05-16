@@ -5,23 +5,44 @@ function Navbar() {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     return (
+
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div className="container-fluid">
-        <a className="navbar-brand" href="./index.html">Olivia Owen</a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-                <a className="nav-link active" aria-current="page" href="./index.html">Home</a>
-                <a className="nav-link active" aria-current="page" href="./Portfolio.html">Portfolio</a>
-                <a className="nav-link active" aria-current="page" href="./contact.html">Contact</a>
-            </div>
-        </div>
-        <a target="_blank" href="https://www.linkedin.com/in/olivia-owen-37346aa4/" className="fa fa-linkedin"></a>
-    </div>
-</nav>
+      <Link className="navbar-brand" to="/">
+       Olivia Owen
+      </Link>
+      <div>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/portfolio"
+              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
 );
 }
 export default Navbar;
